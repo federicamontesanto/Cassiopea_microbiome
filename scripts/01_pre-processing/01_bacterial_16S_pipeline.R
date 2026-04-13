@@ -286,13 +286,13 @@ metadata <- metadata %>%
     Treatment == "Polyp_Aposymbiotic" ~ "Aposymbiotic",
     Treatment == "Polyp_Smic"         ~ "Polyp_Native",
     Treatment == "Polyp_SSB01"        ~ "Polyp_Control",
-    Treatment == "Polyp_antibiotic"   ~ "Polyp_Antib",
-    Treatment == "Polyp_Mutant"       ~ "Polyp_Mut",
+    Treatment == "Polyp_antibiotic"   ~ "Polyp_Antibiotic",
+    Treatment == "Polyp_Mutant"       ~ "Polyp_Mutant",
     Treatment == "Water"              ~ "Water",
     Treatment == "Algae_KB8"          ~ "Algae_Native",
     Treatment == "Algae_SSB01"        ~ "Algae_Control",
-    Treatment == "Algae_antibiotic"   ~ "Algae_Antib",
-    Treatment == "Algae_mutant"       ~ "Algae_Mut",
+    Treatment == "Algae_antibiotic"   ~ "Algae_Antibiotic",
+    Treatment == "Algae_mutant"       ~ "Algae_Mutant",
     TRUE ~ Treatment
   )) %>%
   filter(!grepl("Blank", Treatment, ignore.case = TRUE))
