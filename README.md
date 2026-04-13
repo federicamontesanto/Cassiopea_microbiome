@@ -29,3 +29,6 @@ Scripts for DESeq2-based differential abundance analyses, heatmaps, and ASV over
 ## Data availability
 
 Raw sequencing data are deposited under NCBI BioProject PRJNA1390206.
+
+Code archive DOI: [10.5281/zenodo.19553144](https://doi.org/10.5281/zenodo.19553144)
+
